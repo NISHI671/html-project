@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table HTML rowspan&colspan</title>
+    <style>
+        table{
+            width:300px;
+            height: 200px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            /* border-spacing: 15px;cellspacing  */
+         }
+        td,th{
+            border: 1px solid black;
+            padding: 15px;
+            /* cellpadding */
+        }
+        tr{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student's details</caption>
+        <thead>
+            <tr>
+               <th>ID</th>
+               <th>NAME</th>
+               <th colspan="2">PHONE</th>
+               <th>Group</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>101</td>
+              <td>Anik</td>
+              <td>01923</td>
+              <td>01377</td>
+              <td rowspan="2">CSE</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Anis</td>
+                <td>01723</td>
+                <td>01342</td> 
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Niki</td>
+                <td>01943</td>
+                <td>01442</td>
+                <td>TE</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

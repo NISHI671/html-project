@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration form</h1>
+    </header>
+    <form>
+    <div>
+        <label for ="Full Name">FullName:</label>
+        <input type="text" name="fullname" id="fullname"required>
+    </div><br>
+
+    <div>
+        <label for ="Email">Email:</label>
+        <input type="email" name="Email" id="Email">
+    </div><br>
+
+    <div>
+        <label for ="Password">Password:</label>
+        <input type="password" name="password" id="Password">
+    </div><br>
+
+    <div>
+        <label for ="dob">Date of birth:</label>
+        <input type="date" name="dob" id="dob">
+    </div><br>
+
+    <div>
+        <label for ="gender">Gender:</label>
+        <input type="radio" name="gender" id="Gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="Gender" value="other">Other
+    </div><br>
+
+    <div>
+        <label for ="choose photo">Photo:</label>
+        <input type="file" name="Photo" id="Photo">
+    </div><br>
+    <!-- <div>
+        <label for ="religion">Religion:</label>
+        <input type="checkbox" name="religion" id="Islam" value="Islam">Islam
+        <input type="checkbox" name="religion" id="Hindu" value="Hindu">Hindu
+
+    </div><br> -->
+
+    <div>
+        <label for ="Religion">Religion:</label>
+        <input type="radio" name="Religion" id="Religion" value="Islam">Islam
+        <input type="radio" name="Religion" id="Religion" value="Hindu">Hindu
+        <input type="radio" name="Religion" id="Religion" value="other" > Other <textarea cols="10" rows="1"></textarea>
+
+        
+    </div><br>
+
+    <div>
+        <label for ="department">Department:</label>
+        <select name="Department">
+            <option value="cse" selected>CSE</option>
+            <option value="eee">EEE</option>
+            <option value="ce">CE</option>
+            <option value="ice">ICE</option>
+        </select>
+    </div><br>
+    <div>
+        <label for ="Message">Message</label><br>
+        <textarea cols="20" rows="10"></textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="clear"
+    </div>
+    
+</form>
+</body>
+</html>
